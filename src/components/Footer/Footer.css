@@ -42,7 +42,7 @@
   background-image: url(../../images/bouton_2.png);
   background-color: white;
   background-size: 100% 100%;
-  width: 65%;
+  width: 80%;
   height: 50px;
   font-size: 16px;
   font-weight: bold;
@@ -52,7 +52,6 @@
 }
 
 ::placeholder {
-  
   color: #bcbaba;
   font-size: 16px;
   padding-left: 10%;
@@ -119,7 +118,7 @@ input[type="submit"] {
     left: 6%;
     bottom: 6%;
   }
-  .logo img{
+  .logo img {
     margin-top: 0 !important;
     margin-left: 0 !important;
     width: auto;
@@ -133,26 +132,30 @@ input[type="submit"] {
   .send_text {
     width: 100%;
     position: absolute;
-    top: 20px;
   }
 
   .send_text h4 {
-    font-size: 17px !important;
-    margin-top: 3%;
+    width: 80%;
+    text-align: center;
+    font-size: 100% !important;
+    margin-left: 10%;
+    margin-top: 7%;
   }
-.form_send{
-  width: 100%;
-  position: absolute;
-  top: 93px;
-}
+  .form_send {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+  }
+  .send_input {
+    width: 40%;
+  }
 
-
-.copy_right {
-  height: auto;
-  position: absolute;
-  right: 6%;
-  bottom: 11%;
-}
+  .copy_right {
+    height: auto;
+    position: absolute;
+    right: 6%;
+    bottom: 11%;
+  }
 
   .follow_us {
     display: none;
@@ -172,7 +175,7 @@ input[type="submit"] {
     left: 10%;
     bottom: 8%;
   }
-  .logo img{
+  .logo img {
     margin-top: 0 !important;
     margin-left: 0 !important;
     width: 49%;
@@ -186,35 +189,43 @@ input[type="submit"] {
   .send_text {
     width: 100%;
     position: absolute;
-    top: 20px;
   }
 
   .send_text h4 {
-    font-size: 15px !important;
-    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    font-size: 90% !important;
+    margin-left: 10%;
   }
- 
+
+  .form_send {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+  }
   ::placeholder {
     color: #bcbaba;
     font-size: 12px;
-    padding-left: 5%;
+    padding-left: 3%;
   }
-.form_send{
-  width: 100%;
-  position: absolute;
-  top: 93px;
-}
 
-.send_input {
-  width: 45%;
-}
+  input[type="submit"] {
+    font-size: 14px;
+    margin-left: -55px;
+    height: 40px;
+    width: 53px;
+  }
 
-.copy_right {
-  height: auto;
-  position: absolute;
-  right: 18%;
-  bottom: 9%;
-}
+  .send_input {
+    width: 65%;
+  }
+
+  .copy_right {
+    height: auto;
+    position: absolute;
+    right: 18%;
+    bottom: 9%;
+  }
 
   .follow_us {
     display: none;

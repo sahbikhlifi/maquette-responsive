@@ -1,13 +1,12 @@
 import React, { useRef, useEffect } from 'react';
 import { BrowserRouter, NavLink, useLocation, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import './Navbar2.css';
+import './Navbar.css';
 import logo from '../../images/logo.png'
 
 
-function Navbar2() {
+function Navbar() {
     const navbarLinks = useRef(null);
-    // console.log(navbarLinks)
     const handleNavbarButton = (e) => {
         navbarLinks.current.classList.toggle('menu-collapse');
     };
@@ -70,6 +69,7 @@ function AllRoutes({ hideMenu }) {
     }, [location]);
 
     return (
+        // Routing 
         <Switch>
             {/* <Route path="/about" component={About}>
             </Route>
@@ -88,4 +88,4 @@ function AllRoutes({ hideMenu }) {
 }
 
 
-export default Navbar2;
+export default Navbar;
